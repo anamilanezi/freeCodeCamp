@@ -1,0 +1,65 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    width: 50%;
+    min-width: 600px;
+    height: 100vh;
+    font-family: 'Nunito', sans-serif;
+    background-color: #F8F5E4;
+    font-size: 1.2em;
+}
+
+header { 
+    background: #40513B;
+
+}
+
+h1, p {
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    padding: 1em;
+    color: #9DC08B;
+    /* font-size: 2em; */
+}
+
+p#description {
+    padding-bottom: 1em;
+    color: #EDF1D6;
+    max-width: 350px;
+}
+
+.container {
+    background: #609966;
+    padding-top: 20px;
+}
+
+form {
+    
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+label {
+    display: block;
+    padding: 15px 0 10px 0;
+}
+
+input,
+textarea,
+select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    padding: 5px;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;    
+}
