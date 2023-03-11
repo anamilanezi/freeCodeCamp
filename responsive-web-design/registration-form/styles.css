@@ -14,12 +14,12 @@ body {
 
 header { 
     background: #40513B;
-
+    text-align: center;
 }
 
 h1, p {
     margin: 0 auto;
-    text-align: center;
+    
 }
 
 h1 {
@@ -28,9 +28,13 @@ h1 {
     /* font-size: 2em; */
 }
 
-p#description {
+p {
     padding-bottom: 1em;
     color: #EDF1D6;
+    font-size: 1.1em;
+}
+
+p#description {
     max-width: 350px;
 }
 
@@ -48,9 +52,14 @@ form {
     padding-bottom: 2em;
 }
 
+.form-group {
+    padding: 15px 0 10px 0;
+}
+
 label {
     display: block;
-    padding: 15px 0 10px 0;
+    
+    /* padding: 15px 0 10px 0; */
 }
 
 input,
@@ -62,4 +71,26 @@ select {
     padding: 5px;
     font-size: 16px;
     font-family: 'Nunito', sans-serif;    
+}
+
+.recommend, .improve {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+    padding: 0;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    color: #EDF1D6;
+    background-color: #40513B;
+    border: none;
+    max-width: 150px;
+}
+
+label.paragraph {
+    color: #EDF1D6;
 }
