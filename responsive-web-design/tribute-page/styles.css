@@ -1,11 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Zilla+Slab:wght@400;700&display=swap');
+
 * { 
     margin: 0;
 }
 
+body {
+    background-color: #EAE7B1;
+    font-family: 'Zilla Slab', serif;
+}
+
 main {
     text-align: center;
+    margin: 100px auto;
+    background-color: #3C6255;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    
 }
 
 li {
-    list-style: circle;
+    list-style: disc;
+    text-align: justify;
+}
+
+img {
+    display: block;
+}
+
+
+#image {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3em;
+    color: #A6BB8D;
+    font-family: 'DM Serif Display', serif;
+    padding: 35px 0 10px 0;
+}
+
+h2 {
+    padding: 15px 0;
+    color: #EAE7B1;
+    text-shadow: 1px 1px #A6BB8D;
+}
+
+p {
+    color: #A6BB8D;
+    padding: 10px 0 35px 0;
+
+}
+
+figcaption {
+    width: 75%;
+    margin: 15px auto;
+    color: #3C6255;
+}
+
+#img-div {
+    max-width: 90%;
+    background-color: #A6BB8D;
+    padding: 20px;    
+}
+
+#tribute-info {
+    width: 70%;
+}
+
+li {
+    line-height: 1.5;
+    padding: 5px 0;
+}
+
+#citation {
+    width: 50%;
+    padding: 20px 0;
+    text-align: justify;
+}
+
+#right {
+    text-align: right;
+}
+
+a {
+    color: #EAE7B1;
+
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #A6BB8D;
+    color: #EAE7B1;
 }
